@@ -1,3 +1,4 @@
+package carrinho.compras;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -52,7 +53,7 @@ public class CarrinhoDeCompras {
 
     @Override
     public String toString() {
-        return "CarrinhoDeCompras{" +
+        return "carrinho.compras.CarrinhoDeCompras{" +
                 "itemList=" + itemList +
                 '}';
     }

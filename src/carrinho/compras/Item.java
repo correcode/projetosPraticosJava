@@ -1,3 +1,5 @@
+package carrinho.compras;
+
 public class Item {
     public String nome;
     public double preco;
@@ -23,7 +25,7 @@ public class Item {
 
     @Override
     public String toString() {
-        return "Item{" +
+        return "carrinho.compras.Item{" +
                 "nome='" + nome + '\'' +
                 ", preco=" + preco +
                 ", quantidade=" + quantidade +
